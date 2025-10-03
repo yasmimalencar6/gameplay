@@ -2,11 +2,13 @@
 import {View,Image,Text} from "react-native"
 import Illustration from "../../assets/illustration.png"
 import { StylesSignIn } from "./styles";
+import {StatusBar} from "react-native"
 
 export function SigInin (){
   
   return (
     <View style={StylesSignIn.container}>
+      <StatusBar barStyle={"light-content"} backgroundColor={'transparent'} translucent />
       <Image source={Illustration} style={StylesSignIn.image} resizeMode="stretch"/>
 
       <View  style={StylesSignIn.content}>
