@@ -1,7 +1,7 @@
 
 import {View,Image,Text} from "react-native"
 import Illustration from "../../assets/illustration.png"
-import { StylesSignIn } from "./styles";
+import {StylesSignIn} from "./styles";
 
 export function SigInin (){
   
